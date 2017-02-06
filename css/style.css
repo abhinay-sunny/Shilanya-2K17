@@ -1868,12 +1868,12 @@ body.header-fixed.headroom--not-top {
 }
 @media (max-width: 600px) {
   .banner {    
-    top:10%;
+    top:5%;
   }
 	.hero-text{
-		font-size: 2em;
+		font-size: 3em;
 	}
-	.days{
+	.number{
 		font-size: 1em;
 	}
 }

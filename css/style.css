@@ -1870,6 +1870,12 @@ body.header-fixed.headroom--not-top {
   .banner {    
     top:10%;
   }
+	.hero-text{
+		font-size: 2em;
+	}
+	.days{
+		font-size: 1em;
+	}
 }
 .banner.small {
 	padding: 175px 0;

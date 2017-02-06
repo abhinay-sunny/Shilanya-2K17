@@ -1866,11 +1866,11 @@ body.header-fixed.headroom--not-top {
 	line-height: 20px;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .banner {    
     top:20%;
   }
-}
+}*/
 .banner.small {
 	padding: 175px 0;
 	padding-top: 260px;

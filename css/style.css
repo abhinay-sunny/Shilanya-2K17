@@ -1873,6 +1873,9 @@ body.header-fixed.headroom--not-top {
 	.hero-text{
 		font-size: 2.5em;
 	}
+	.line{
+		line-height: 1em;
+	}
 	.countdown .time .number {
 	font-size: 40px;
 	line-height: 30px;

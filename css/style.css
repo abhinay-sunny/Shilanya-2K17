@@ -1703,7 +1703,7 @@ body.header-fixed.headroom--not-top {
 	}
 }
 @media (max-width:1200px){
-	.page-title{
+	.accom-title{
 		height: 200px;
 		vertical-align: middle;
 	}

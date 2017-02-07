@@ -1674,21 +1674,11 @@ body.header-fixed.headroom--not-top {
 	background: #fff;
 	position: relative;
 }
-#about{
-	color: white;
-}
-#about>.inner{
+.pages>.inner{
 	background-image: url('../images/background17.jpg');
 	background-size: cover;
 	background-position: center;
-}
-#sponsors{
 	color: white;
-}
-#sponsors>.inner{
-	background-image: url('../images/background17.jpg');
-	background-size: cover;
-	background-position: center;
 }
 .sponsor-stack>img{
 	float: left;

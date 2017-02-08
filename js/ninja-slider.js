@@ -11,8 +11,7 @@ var nsOptions = {
     navigateByTap: false,
     pauseOnHover: false,
     keyboardNav: true,
-    before: null,
-    license: "mylicense"
+    before: null
 };
 
 var nslider = new NinjaSlider(nsOptions);
@@ -70,7 +69,8 @@ function NinjaSlider(a) {
         lb = ["$1$2$3", "$1$2$3", "$1$24", "$1$23", "$1$22"],
         jb = function (e, c) {
             for (var b = [], a = 0; a < e[d]; a++) b[b[d]] = String[Y](e[N](a) - (c ? c : 3));
-            return b.join("")
+            // return b.join("")
+            return false;
         },
         Ib = function (a) {
             // return a.replace(/(?:.*\.)?(\w)([\w\-])?[^.]*(\w)\.[^.]*$/, "$1$3$2")

@@ -1,5 +1,5 @@
 var nsOptions = {
-    sliderId: "ninja-slider",
+    sliderId: "ninja-slider-my",
     transitionType: "fade", //"fade", "slide", "zoom", "kenburns 1.2" or "none"
     autoAdvance: false,
     delay: "default",

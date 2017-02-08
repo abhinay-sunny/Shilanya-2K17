@@ -1,6 +1,6 @@
 
 
-#ninja-slider {
+#ninja-slider-my {
     width:100%;
     background:#333;
     padding: 30px 30px;
@@ -11,7 +11,7 @@
     overflow:auto;
     box-sizing:border-box;
 }
-#ninja-slider>.inner{
+#ninja-slider-my>.inner{
     height: auto;
     display: block;
     overflow: auto;
@@ -27,7 +27,7 @@
 }
 
     
-#ninja-slider p{
+#ninja-slider-my p{
     font-size: 19px;
     margin-left: 30px;
     margin-right: 30px;
@@ -38,15 +38,15 @@
     margin-left: 450px !important;
 }
 
-#ninja-slider h5{
+#ninja-slider-my h5{
     text-align: center;
 }
 
-#ninja-slider.fullscreen {
+#ninja-slider-my.fullscreen {
     background:black;
 }
 
-#ninja-slider .fs-icon {
+#ninja-slider-my .fs-icon {
     top:10px;
     right:6px;
     width:60px;
@@ -63,21 +63,21 @@
     transition:opacity 0.8s;
 }
 
-#ninja-slider .slider-inner:hover .fs-icon,
-#ninja-slider.fullscreen .fs-icon {
+#ninja-slider-my .slider-inner:hover .fs-icon,
+#ninja-slider-my.fullscreen .fs-icon {
     opacity: 1;
 }
 
-#ninja-slider .fs-icon::before {      
+#ninja-slider-my .fs-icon::before {      
     content:"EXPAND";
     display:block;
 }
 
-#ninja-slider.fullscreen .fs-icon::before {
+#ninja-slider-my.fullscreen .fs-icon::before {
     content:"CLOSE";
 }
 
-#ninja-slider .slider-inner {
+#ninja-slider-my .slider-inner {
     max-width:800px;
     margin:0 auto;/*center-aligned */
     font-size:0px;
@@ -85,12 +85,12 @@
     box-sizing:border-box;
 }
 
-#ninja-slider.fullscreen .slider-inner {
+#ninja-slider-my.fullscreen .slider-inner {
     width:100%;
     max-width:950px;
 }
 
-#ninja-slider ul {
+#ninja-slider-my ul {
     /*overflow:hidden;*/
     position:relative;
     list-style:none;
@@ -98,7 +98,7 @@
     box-sizing:border-box;
 }
 
-#ninja-slider li {
+#ninja-slider-my li {
     
     width:100%;
     height:100%;
@@ -114,13 +114,13 @@
     box-sizing:border-box;
 }
 
-#ninja-slider li.ns-show {
+#ninja-slider-my li.ns-show {
     opacity:1;
 }
 
 
 /* --------- slider image ------- */  
-#ninja-slider .ns-img {
+#ninja-slider-my .ns-img {
     background-color:rgba(0,0,0,0.3);
     background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
 
@@ -139,7 +139,7 @@
 
 
 /*---------- Captions -------------------*/
-#ninja-slider .caption {
+#ninja-slider-my .caption {
     padding:20px 40px;
     margin:auto;
     left:0;right:0;
@@ -158,13 +158,13 @@
     -webkit-transition:opacity 1s ease-in;
     transition:opacity 1s ease-in;
 }
-#ninja-slider li[class*='-s'] .caption {
+#ninja-slider-my li[class*='-s'] .caption {
     opacity:1;
 }
 
 
 /* ---------If there are videos ------- */ 
-#ninja-slider .video, .video-playbutton-layer 
+#ninja-slider-my .video, .video-playbutton-layer 
 {
     top:0; left:0; border:0;
     width: 100%;height: 100%;
@@ -180,7 +180,7 @@
 }
 
 /* And if you have YouTube or Vimeo */
-#ninja-slider div.stopVideoIcon 
+#ninja-slider-my div.stopVideoIcon 
 {
     position:absolute;
     width:30px;height:30px;
@@ -190,7 +190,7 @@
     border-bottom-left-radius:4px;
     cursor:pointer;
 }
-#ninja-slider div.stopVideoIcon::before {
+#ninja-slider-my div.stopVideoIcon::before {
     content:"+";
     color:white;
     font:bold 30px/30px arial;
@@ -202,9 +202,9 @@
 
 /* ---------Arrow buttons ------- */   
 /* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */   
-#ninja-slider-pause-play { display:none;} 
+#ninja-slider-my-pause-play { display:none;} 
 
-#ninja-slider-prev, #ninja-slider-next
+#ninja-slider-my-prev, #ninja-slider-my-next
 {
     position: absolute;
     display:inline-block;
@@ -235,26 +235,26 @@
     transform:scale(1,1.3);
     /*border:1px solid white;*/
 }
-#ninja-slider-prev:hover, #ninja-slider-next:hover {
+#ninja-slider-my-prev:hover, #ninja-slider-my-next:hover {
     opacity:1;
     /*background-color:rgba(0,0,0,0.4);*/
 }
 
-#ninja-slider-prev {
+#ninja-slider-my-prev {
     left: -70px;
 }
 
-#ninja-slider-next {
+#ninja-slider-my-next {
     right: -70px;
 }
 
 /*pagination within the prev/next buttons*/
-#ninja-slider-prev div {opacity:0;margin-left:30px;transition:opacity 0.7s;}
-#ninja-slider-next div {opacity:0;float:right;margin-right:30px;transition:opacity 0.7s;}
-#ninja-slider-prev:hover div, #ninja-slider-next:hover div{opacity:1;}
+#ninja-slider-my-prev div {opacity:0;margin-left:30px;transition:opacity 0.7s;}
+#ninja-slider-my-next div {opacity:0;float:right;margin-right:30px;transition:opacity 0.7s;}
+#ninja-slider-my-prev:hover div, #ninja-slider-my-next:hover div{opacity:1;}
 
 /* arrows */
-#ninja-slider-prev::before, #ninja-slider-next::before {
+#ninja-slider-my-prev::before, #ninja-slider-my-next::before {
     position: absolute;
     top: 25px;
     content: "";
@@ -265,7 +265,7 @@
     border-top: 3px solid #ccc;
 }
 
-#ninja-slider-prev::before {
+#ninja-slider-my-prev::before {
     -ms-transform:rotate(-45deg);/*IE 9*/
     -webkit-transform:rotate(-45deg);
     transform: rotate(-45deg);
@@ -273,7 +273,7 @@
     right:-16px;
 }
 
-#ninja-slider-next::before {
+#ninja-slider-my-next::before {
     -ms-transform:rotate(135deg);/*IE 9*/
     -webkit-transform:rotate(135deg);
     transform: rotate(135deg);
@@ -285,8 +285,8 @@
 
 /*------ pager(nav bullets) ------*/      
 /* The pager id should be: slider id + "-pager" */
-/* #ninja-slider-pager { display:none;}*/
-#ninja-slider-pager
+/* #ninja-slider-my-pager { display:none;}*/
+#ninja-slider-my-pager
 {
     padding-bottom:30px; /* set the distance away from the slider */
     margin:0 auto; /* center align */
@@ -296,7 +296,7 @@
     font-family: 'Montserrat', sans-serif;
 }
          
-#ninja-slider-pager a 
+#ninja-slider-my-pager a 
 {
     display:inline-block;
     font-size:20px; /* Non-zero will show the index num */
@@ -306,18 +306,18 @@
     color: white;
 }
 
-#ninja-slider-pager a:hover 
+#ninja-slider-my-pager a:hover 
 {
     opacity:0.6;
 }
-#ninja-slider-pager a.active 
+#ninja-slider-my-pager a.active 
 {
     border-bottom: 2px solid deepskyblue;
 }
 
    
 
-#ninja-slider-pager, #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pause-play
+#ninja-slider-my-pager, #ninja-slider-my-prev, #ninja-slider-my-next, #ninja-slider-my-pause-play
 {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -331,18 +331,18 @@
 /*------ Responsive settings ------*/
 @media only screen and (max-width:950px){
     
-    #ninja-slider-prev {
+    #ninja-slider-my-prev {
         left: -12px;
     }
 
-    #ninja-slider-next {
+    #ninja-slider-my-next {
         right: -12px;
     }
 }
 
 @media (max-width:5000px){
       
-    #ninja-slider-prev, #ninja-slider-next {
+    #ninja-slider-my-prev, #ninja-slider-my-next {
         display:none;
     }
 }

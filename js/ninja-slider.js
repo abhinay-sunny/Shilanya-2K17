@@ -17,7 +17,7 @@ var nsOptions = {
 
 var nslider = new NinjaSlider(nsOptions);
 
-/* Ninja Slider v2016.5.9 Copyright www.menucool.com */
+
 function NinjaSlider(a) {
     "use strict";
     if (typeof String.prototype.trim !== "function") String.prototype.trim = function () {

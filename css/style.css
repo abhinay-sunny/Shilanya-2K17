@@ -1929,10 +1929,7 @@ body.header-fixed.headroom--not-top {
 .workshop>.inner{
 	padding-top: 30px;
 }
-.ws-img{
-	/*margin-left: 30px;*/
-	float: left;
-}
+
 .split-section>.item {
 	float: left;
 	width: 50%;

@@ -98,7 +98,7 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 }
 
-#my-pager a:hover 
+#my-pager a:hover,#my-pager a.active
 {
 		border-bottom: 3px solid deepskyblue;
 }

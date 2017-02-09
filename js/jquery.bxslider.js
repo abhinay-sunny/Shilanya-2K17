@@ -7,7 +7,11 @@
  *
  * Released under the MIT license - http://opensource.org/licenses/MIT
  */
-
+$(document).ready(function(){
+	$('#my-pager>a').click(function(){
+		$(this).addClass('active');
+	});
+});
 ;(function($){
 
 	var plugin = {};

@@ -32,9 +32,7 @@
 * 28. Shop
 * 
 **/
-text{
-	text-indent: -9999px;
-}
+
 /* ==========================================================================
    Particles
    ========================================================================== */
@@ -57,6 +55,16 @@ canvas{
   display:block;
   vertical-align:bottom;
 }
+
+@media (max-width: 767px) { 
+.dropdown.custom:hover .dropdown-menu {
+  visibility: visible;
+  display:block;
+  border-radius:0;
+
+}
+}
+
 
 /* ---- particles.js container ---- */
 

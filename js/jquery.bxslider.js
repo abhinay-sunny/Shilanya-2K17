@@ -9,7 +9,7 @@
  */
 $(document).ready(function(){
 	$('#my-pager>a').click(function(){
-		$(this).addClass('active');
+		$(this).toggleClass('active');
 	});
 });
 ;(function($){

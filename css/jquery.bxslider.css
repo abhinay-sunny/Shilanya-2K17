@@ -19,6 +19,7 @@
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
+	margin-top: 30px;
 }
 .bxslider>li{
 	padding:30px;
@@ -68,20 +69,41 @@
 	.ws-img{
 		margin: 0;
 	}
+	.pad-left{
+	padding-left: 0px;
+	}
+	#my-pager a{
+		margin: 30px 20px;
+	}
 }
-#my-pager{
-	margin: 30px auto;
+
+#-my-pager
+{
+    padding-bottom:40px; /* set the distance away from the slider */
+    margin:30 auto; /* center align */
+    text-align:center;
+    display:table;
+    font-size:0;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
-#my-pager a{
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	margin: 5px;
-	padding: 20px;
-	font-size:17.5px;
+         
+#my-pager a 
+{
+    display:inline-block;
+    font-size:20px; /* Non-zero will show the index num */
+    margin:2px 12px;
+    cursor:pointer;
+    padding: 12px;
+    color: white;
+		font-family: 'Montserrat Alternates', sans-serif;
 }
-#my-pager a:hover{
-	border-bottom:2px solid deepskyblue;
+
+#my-pager a:hover 
+{
+		border-bottom: 3px solid deepskyblue;
 }
+
+
 /** THEME
 ===================================*/
 

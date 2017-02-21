@@ -2016,6 +2016,9 @@ body.header-fixed.headroom--not-top {
 	line-height: 20px;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
+.hero-text{
+	text-shadow: 3px 3px 2px rgb(9, 15, 20);
+}
 @media (max-width: 600px) {
   .banner {    
     top:3%;

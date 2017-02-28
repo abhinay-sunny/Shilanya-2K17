@@ -64,7 +64,9 @@ canvas{
 
 }
 }
-
+.margin-bottom{
+	margin-bottom: 15px;
+}
 
 /* ---- particles.js container ---- */
 

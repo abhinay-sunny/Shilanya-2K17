@@ -67,6 +67,9 @@ canvas{
 .margin-bottom{
 	margin-bottom: 15px;
 }
+.gal-img{
+	box-shadow: 4px 4px 5px black;
+}
 
 /* ---- particles.js container ---- */
 

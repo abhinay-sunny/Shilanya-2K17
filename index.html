@@ -23,6 +23,8 @@
 		<link href="css/animate.min.css" rel="stylesheet">
 		<!-- Flipster -->
 		<link href="css/jquery.flipster.min.css" rel="stylesheet">
+		<!--Pop Out-->
+		<link rel="stylesheet" href="css/popout.css">
 		<!-- Style.css -->
 		<link href="css/style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
@@ -52,7 +54,16 @@
 	</head>
 	<body onload="loading()" class="header-fixed">
 		<div class="preloader"><img id="loader" src="images/loading.gif" alt=""></div>
-			
+		
+		<div id="boxes">
+			<div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">
+				<div id="lorem">
+					<img class="img-responsive" src="images/popout.jpg" alt="JNTUACE Presents">
+				</div>
+			</div>
+			<div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+		</div>
+
 		<header class="header fixed">
 			<div class="container">
 				<div class="logo"><a href="index.html"><img src="images/logo.png" alt="Shilanya 2K17" class="img-responsive"></a></div> <!-- end .logo -->
@@ -198,6 +209,8 @@
 		<script src="js/jquery.gridrotator.js"></script>
 		<!-- Flipster -->
 		<script src="js/jquery.flipster.min.js"></script>
+		<!--Pop Out-->
+		<script src="js/popout.js"></script>
 		<!-- Headroom -->
 		<script src="js/headroom.js"></script>
 		<script src="js/jQuery.headroom.js"></script>

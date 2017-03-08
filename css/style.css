@@ -1675,6 +1675,9 @@ body.header-fixed.headroom--not-top {
 	float: left;
 	margin: 34px 0;
 }
+.contacth2{
+	text-align: center;
+}
 .page-title .buttons {
 	float: right;
 	margin-top: 40px;
